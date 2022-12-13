@@ -19,12 +19,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 @media screen and (min-width: 480px) {
   .conteiner {
-    width: 480px;
+    width: 448px;
   }
 }
 @media screen and (min-width: 768px) {
   .conteiner {
-    width: 768px;
+    width: 720px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -114,7 +114,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .about__list {
