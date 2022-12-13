@@ -1,0 +1,24 @@
+.logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+}
+
+.span {
+    font-family: $font-logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    &__web {
+        color: $accent-color;
+     
+    }
+    
+    &__studio {
+        color: $logo-text-color;
+      
+    }
+
+}
