@@ -4,6 +4,9 @@
     align-items: center;
     padding: 60px 0;
 
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+    }
     
 }
 
@@ -16,9 +19,7 @@
         flex-wrap: wrap;
         margin: -15px;
     }
-    @media screen and (min-width: 1200px) {
-    }
-
+    
 }
    .about__list-i-tem{
    
