@@ -1,0 +1,46 @@
+
+
+
+.button-icon{
+    
+    justify-content: center;
+    
+    &__comment {
+        width: 450px;
+        display: flex;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid $rgba-four-color;
+        background-color: $background-color;
+        color: $second-background-color;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    &__button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        padding: 10px 31px;
+        
+        font-size: 16px;
+        font-weight: bold;
+        line-height: calc(30 / 16);
+        border-radius: 4px;
+        border: 2px solid $accent-color;
+        background-color: $accent-color;
+        color: $second-background-color;
+        
+    }
+}
+
+.button-icon__comment::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+    color: $rgba-color;
+}
+
+

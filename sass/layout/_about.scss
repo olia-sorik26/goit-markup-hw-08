@@ -31,11 +31,14 @@
     }
     @media screen and (min-width: 1200px) {
         width: calc((100% - 8 * 15px) / 4);
+       
     }
     } 
+    @media screen and (min-width: 1200px) {
     .about__list-i-tem:not(:last-child ) {
         margin-bottom: 30px;
     }
+}
 .prodact {
     
         &__image {
