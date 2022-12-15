@@ -1,8 +1,26 @@
 
-
-.web:not(:last-child) {
+.web {
     margin-bottom: 60px;
 }
+
+
+    @media screen and (min-width: 768px) {
+        .web-flex {
+display: flex;
+justify-content: space-between;
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+  
+    .web-flex__conteiner{
+    display: flex;
+    justify-content: space-between;
+    }
+    }
+    
 .footer-web {
     background-color: $background-color;
     display: flex;
@@ -11,6 +29,9 @@
 
     padding-top: 60px;
     padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      text-align: start;
 }
 
 .span__studio--white {
@@ -45,8 +66,17 @@
         color: $second-background-color;
     }
 }
-
+}
 .adress__footer:hover,
 .adress__footer:focus {
     color: $second-background-color;
+}
+@media screen and (min-width: 1200px) {
+    .button-icon__button {
+        display: flex;
+    }
+
+    .button-icon{
+        display: flex;
+    }
 }

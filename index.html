@@ -168,20 +168,39 @@
     
     <li class="conteiner-work__i-tem">
         <div class="card-work">
-        <img src="./img/nout.jpg.jpg" alt="computer" width="370" class="card-work__card__card__image">
+        <img class="card-work__card__card__image"
+        srcset="./image/work/img_370.jpg 370w,
+        ./image/work/img_740.jpg 740w
+        "
+        sizes="(min-width: 1200px) 370px, 100vw"
+
+        src="./image/work/img_370.jpg"
+        alt="computer" width="370" >
     <p class="card-work__dodatok">Десктопні додатки</p>
     </div>
 </li>
     <li class="conteiner-work__i-tem">
         <div class="card-work">
-        <img src="./img/phone.jpg.jpg" alt="phone" width="370" class="card-work__card__card__image">
+        <img 
+        srcset="./image/work/img_370_2.jpg 370w,
+        ./image/work/img_740_2.jpg 740w
+        "
+        sizes="(min-width: 1200px) 370px, 100vw"
+        
+        src="./image/work/img_370_2.jpg" alt="phone" width="370" class="card-work__card__card__image">
     <p class="card-work__dodatok">Мобільні додатки</p>
 </div>
 </li>
     
     <li class="conteiner-work__i-tem">
         <div class="card-work"> 
-        <img src="./img/ipad.jpg.jpg" alt="ipad" width="370" class="card-work__card__card__image">
+        <img 
+        srcset="./image/work/img_370_3.jpg 370w,
+        ./image/work/img_740_3.jpg 740w
+        "
+        sizes="(min-width: 1200px) 370px, 100vw"
+        
+        src="./image/work/img_370_2.jpg" alt="ipad" width="370" class="card-work__card__card__image">
     <p class="card-work__dodatok">Дизайнерські рішення</p>
 </div>
 </li>
@@ -195,7 +214,17 @@
     <ul class="list-team">
         <li class="list-team__item">
             <article class="card">
-            <img class="card__image" src="./img/igor.jpg.jpg" alt="igor" width="270">
+            <img class="card__image" 
+            srcset="
+            ./image/team/img_270.jpg 270w,
+            ./image/team/img_354.jpg 354w,
+            ./image/team/img_450.jpg 450w,
+            ./image/team/img_540.jpg 540w,
+            ./image/team/img_708.jpg 708w,
+            ./image/team/img_900.jpg 900w
+            "
+            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+            src="./image/team/img_450.jpg" alt="igor" width="450">
          <div class="card__text">
             <h3 class="card__title">Ігор Дем'яненко</h3>
             <p class="card__name" lang="en">Product Designer</p>
@@ -233,7 +262,18 @@
         <li class="list-team__item">
             <article class="card">
             <div class="card-team">
-            <img class="card__image" src="./img/helga.jpg.jpg" alt="helga" width="270">
+             
+            <img class="card__image" 
+            srcset="
+            ./image/team/img_270_olga.jpg 270w,
+            ./image/team/img_354_olga.jpg 354w,
+            ./image/team/img_450_olga.jpg 450w,
+            ./image/team/img_540_olga.jpg 540w,
+            ./image/team/img_708_olga.jpg 708w,
+            ./image/team/img_900_olga.jpg 900w
+            "
+            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+            src="./image/team/img_450_olga.jpg" alt="helga" width="450">
         </div>
         <div class="card__text">
             <h3 class="card__title">Ольга Рєпіна</h3>
@@ -272,7 +312,17 @@
         <li class="list-team__item">
             <article class="card">
             <div class="card-team">
-            <img class="card__image" src="./img/mukola.jpg.jpg" alt="mukola" width="270">
+            <img class="card__image" 
+            srcset="
+            ./image/team/img_270_mukola.jpg 270w,
+            ./image/team/img_354_muko.jpg 354w,
+            ./image/team/img_450_mukola.jpg 450w,
+            ./image/team/img_540_mukola.jpg 540w,
+            ./image/team/img_708_mukola.jpg 708w,
+            ./image/team/img_900_mukola.jpg 900w
+            "
+            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+            src="./image/team/img_450_mukola.jpg" alt="mukola" width="450">
         </div>
         <div class="card__text">
             <h3 class="card__title">Микола Тарасов</h3>
@@ -310,7 +360,18 @@
         <li class="list-team__item">
             <article class="card">
             <div class="card-team">
-            <img class="card__image" src="./img/mixa.jpg.jpg" alt="mixa" width="270">
+            <img class="card__image" 
+            srcset="
+            ./image/team/img_270_mixa.jpg 270w,
+            ./image/team/img_354_mixa.jpg 354w,
+            ./image/team/img_450_mixa.jpg 450w,
+            ./image/team/img_540_mixa.jpg 540w,
+            ./image/team/img_708_mixa.jpg 708w,
+            ./image/team/img_900_mixa.jpg 900w
+            "
+            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+            
+            src="./image/team/img_450_mixa.jpg" alt="mixa" width="450">
         </div>
         <div class="card__text">
             <h3 class="card__title">Михайло Єрмаков</h3>
@@ -405,7 +466,8 @@
 <!--Футер-->
 
 <footer class="footer-web">
-    <div class="conteiner">
+    <div class="conteiner web-flex__conteiner">
+        <div class="web-flex">
     <div class="web">
     <a href="#" class="logo span">
         <span class="span__web">Web</span>
@@ -420,6 +482,7 @@
         </ul>
     </address>
 </div>
+
 <div class="web">
     <h3 class="welcome">приєднуйтесь</h3>
     <ul class="welcome-social list">
@@ -452,7 +515,7 @@
 </a>
 </li>
 </ul>
-
+</div>
 </div>
 <div class="web">
     <h3 class="welcome">Підпишіться на розсилку</h3> 
@@ -460,7 +523,7 @@
     <input class="button-icon__comment" type="email" name="email" placeholder="E-mail">
     <button type="button" class="button-icon__button">
     Підписатися
-    <svg class="button-icon__button" width="24" height="24">
+    <svg class="button-icon__svg" width="24" height="24">
         <use href="./img/icons.svg#icon-icon-send"></use>
     </svg>
 </button>
