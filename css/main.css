@@ -768,6 +768,11 @@ img {
 .web {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .web {
+    margin-right: 70px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .web-flex {
@@ -777,6 +782,10 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -949,6 +958,11 @@ img {
   border: 2px solid #2196f2;
   background-color: #2196f2;
   color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .button-icon__button {
+    padding: 10px 28px;
+  }
 }
 .button-icon__svg {
   margin-left: 10px;

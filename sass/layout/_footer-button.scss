@@ -18,6 +18,8 @@
         color: $second-background-color;
         padding: 15px;
         margin-bottom: 20px;
+
+       
     }
 
     &__button{
@@ -36,6 +38,9 @@
         background-color: $accent-color;
         color: $second-background-color;
         
+        @media screen and (min-width: 1200px) {
+            padding: 10px 28px;
+        }
     }
 
     &__svg {

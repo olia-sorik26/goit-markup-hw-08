@@ -1,6 +1,10 @@
 
 .web {
     margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+       margin-right: 70px;}
+   
 }
 
 
@@ -8,16 +12,18 @@
         .web-flex {
 display: flex;
 justify-content: space-between;
+flex-direction: row;
 
     }
-}
-
+    }
+ 
 
 @media screen and (min-width: 1200px) {
   
     .web-flex__conteiner{
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+justify-content: space-between;
+
     }
     }
     
