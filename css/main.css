@@ -136,6 +136,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    padding: 200px 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../image/hero/desk@1x.jpg");
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/hero/desk@1x.jpg");
   }
@@ -929,6 +930,9 @@ img {
   border: 2px solid #2196f2;
   background-color: #2196f2;
   color: #ffffff;
+}
+.button-icon__svg {
+  margin-left: 10px;
 }
 
 .button-icon__comment::-webkit-input-placeholder {

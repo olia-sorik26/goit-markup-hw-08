@@ -21,7 +21,7 @@
     }
 
     &__button{
-        
+
         display: center;
         align-items: center;
         justify-content: center;
@@ -36,6 +36,10 @@
         background-color: $accent-color;
         color: $second-background-color;
         
+    }
+
+    &__svg {
+        margin-left: 10px;
     }
 }
 
