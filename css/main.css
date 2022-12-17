@@ -371,6 +371,10 @@ img {
   text-decoration: none;
 }
 
+menu__icon {
+  margin: 21px;
+}
+
 .menu__icon:hover,
 .menu__icon:focus {
   fill: #2196f2;
@@ -393,7 +397,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: auto;
+  margin: 21px;
   padding: 0;
   background-color: transparent;
   cursor: pointer;
@@ -413,7 +417,7 @@ img {
 }
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
+  fill: #2196f2;
 }
 
 .menu-container {
@@ -504,7 +508,7 @@ img {
   margin-bottom: 32px;
 }
 
-.mobile-contact__item:last-child {
+.mobile-contact {
   margin-bottom: 64px;
 }
 
