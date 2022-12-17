@@ -22,7 +22,7 @@
 
         @media screen and (min-width: 1200px){
             justify-content: space-between;
-            width: 350px;
+            min-width: 350px;
             display: block;
             box-sizing: border-box;
             margin-right: 12px;
