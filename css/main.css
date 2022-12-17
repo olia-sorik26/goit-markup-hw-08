@@ -402,6 +402,10 @@ img {
   outline: none;
 }
 
+.menu-icon {
+  z-index: 999;
+}
+
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -414,7 +418,6 @@ img {
 
 .menu-container {
   position: fixed;
-  overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -426,9 +429,9 @@ img {
   left: 0;
   width: 100vw;
   height: 100vh;
+  overflow: auto;
   padding: 32px;
   background-color: #ffffff;
-  z-index: 999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
@@ -453,10 +456,6 @@ img {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-.mobile-menu--margin {
-  margin-bottom: auto;
 }
 
 .mobile-menu__link:hover,
@@ -1097,15 +1096,11 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 100%/2;
-  gap: 30px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin: -15px;
+  min-width: 320px;
 }
 .clients__baza {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  margin: 15px;
   -ms-flex-negative: 4;
       flex-shrink: 4;
   -webkit-box-pack: center;
@@ -1120,6 +1115,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .clients__baza {
+    gap: 30px;
     width: 100%/3;
     padding: 16px 60px;
   }
