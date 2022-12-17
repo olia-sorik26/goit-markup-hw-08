@@ -418,6 +418,7 @@ img {
 
 .menu-container {
   position: fixed;
+  overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,9 +428,8 @@ img {
           flex-direction: column;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
+  right: 0;
+  bottom: 0;
   padding: 32px;
   background-color: #ffffff;
   -webkit-transform: translateX(100%);
@@ -443,6 +443,10 @@ img {
 .menu-container.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+.menu-container .mobile-menu--margin {
+  margin-bottom: auto;
 }
 
 .menu-container .menu-toggle {
