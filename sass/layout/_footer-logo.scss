@@ -1,13 +1,19 @@
 
 .web {
-    margin-bottom: 60px;
-
+    
+margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
+margin-bottom: 0;
        margin-right: 70px;}
    
 }
-
-
+.web:last-child{
+    margin-right: 0;
+}
+.web-flex {
+    flex-direction: column;
+    justify-content: space-between;
+}
     @media screen and (min-width: 768px) {
         .web-flex {
 display: flex;
@@ -21,7 +27,7 @@ flex-direction: row;
 @media screen and (min-width: 1200px) {
   
     .web-flex__conteiner{
-        
+
         display: flex;
 justify-content: space-between;
 
@@ -35,10 +41,10 @@ justify-content: space-between;
    text-align: center;
 
     padding-top: 60px;
-    padding-bottom: 60px;
-
+   
     @media screen and (min-width: 1200px) {
     text-align: start;
+    padding-bottom: 60px;
 }
 
 .span__studio--white {

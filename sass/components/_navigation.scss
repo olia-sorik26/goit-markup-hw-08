@@ -15,7 +15,8 @@
     line-height: 1.14;
 
     @media screen and (min-width: 1200px){
-        margin-left: 50px;
+        margin-left: 93px;
+        margin-right: 315px;  
     }
 }
 
@@ -28,7 +29,7 @@
     line-height: 1.14;
     @media screen and (min-width: 1200px) {
 display: flex;
-justify-content: flex-end;     }
+ }
 }
 
 .contact {
@@ -151,7 +152,9 @@ display: flex;
     @media  screen and (min-width: 768px) {     
     text-align: center;
     }
-        
+    @media  screen and (min-width: 1200px) {     
+        justify-content: flex-start;
+        } 
     }
 
 

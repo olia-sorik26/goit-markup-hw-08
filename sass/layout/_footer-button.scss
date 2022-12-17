@@ -19,11 +19,15 @@
         color: $second-background-color;
         padding: 15px;
         margin-bottom: 20px;
+
         @media screen and (min-width: 1200px){
+            justify-content: space-between;
             width: 350px;
             display: block;
             box-sizing: border-box;
-            margin-left: 12px;
+            margin-right: 12px;
+            margin-bottom: 0;
+            flex-shrink: 2;
           
         }
        
@@ -36,7 +40,6 @@
         justify-content: center;
         letter-spacing: 0.06em;
         padding: 10px 52px;
-        margin-right: 10px;
         font-size: 16px;
         font-weight: bold;
         line-height: calc(30 / 16);
