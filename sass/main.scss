@@ -8,9 +8,11 @@
 /*COMPONENTS*/
 
 @import "./components/logo";
-
-@import "./layout/hero";
 @import "./components/modals";
+@import "./components/menu-toggle";
+@import "./components/navigation";
+@import "./layout/hero";
+
 @import "./layout/about";
 @import "./layout/work";
 @import "./layout/title";
@@ -21,3 +23,4 @@
 @import "./layout/footer-logo";
 @import "./layout/footer-link";
 @import "./layout/footer-button";
+
